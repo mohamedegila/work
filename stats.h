@@ -20,7 +20,7 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-void sort_array(unsigned char *ptr,int size);
+void sort_array(unsigned char,int);
 
 /**
  * @brief sorts the array from largest to smallest
@@ -32,7 +32,7 @@ void sort_array(unsigned char *ptr,int size);
  * @return void
  */
 
-void print_array(unsigned char *ptr,int size);
+void print_array(unsigned char,int);
 
 /**
  * @brief prints the array to the screen
@@ -44,7 +44,7 @@ void print_array(unsigned char *ptr,int size);
  * @return void
  */
 
-unsigned char find_maximum(unsigned char *ptr,int size);
+unsigned char find_maximum(unsigned char,int);
 
 /**
  * @brief finds the maximum number in an array
@@ -68,7 +68,7 @@ unsigned char find_minimum(unsigned char *ptr,int size);
  * @return the minimum
  */
 
-unsigned char find_median(unsigned char *ptr,int size);
+unsigned char find_median(unsigned char,int);
 
 /**
  * @brief finds the median value in an array
@@ -80,7 +80,7 @@ unsigned char find_median(unsigned char *ptr,int size);
  * @return the median value
  */
 
-unsigned char find_mean(unsigned char *ptr,int size);
+unsigned char find_mean(unsigned char,int);
 
 /**
  * @brief finds the mean value in an array
@@ -92,7 +92,7 @@ unsigned char find_mean(unsigned char *ptr,int size);
  * @return the mean value
  */
 
-void print_statistics(unsigned char *ptr,int size);
+void print_statistics(unsigned char,int);
 
 /**
  * @brief  prints the statistics of an array including minimum, maximum, mean, and median.
